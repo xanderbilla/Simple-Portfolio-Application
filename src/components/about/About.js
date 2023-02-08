@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import Award from '../../img/award.png'
+// import Award from '../../img/me.png'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
               <p className="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eius atque odit perspiciatis sapiente ducimus, iure doloribus, cumque officia dolores similique beatae corporis voluptas, magni neque nihil? Alias, facilis veniam.</p>
           
           <div className="about-award">
-              <img src={Award} alt="" className="about-award-img" />
+              {/* <img src={Award} alt="" className="about-award-img" /> */}
               <div className="about-award-texts">
                   <h4 className="about-award-title">International Design</h4>
                       <p className="about-award-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque obcaecati illo deleniti similique. Beatae, quibusdam accusantium pariatur porro nisi facere?</p>
