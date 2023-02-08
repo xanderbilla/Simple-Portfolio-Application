@@ -1,8 +1,6 @@
 import React from 'react';
 import './intro.css'
 
-import Me from '../../img/address.png';
-
 export const Intro = () => {
   return (
       <div className="intro">
