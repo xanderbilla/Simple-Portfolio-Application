@@ -5,6 +5,7 @@ import Email from '../../img/email.png'
 import Address from '../../img/address.png'
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../Context'
+import Brand from '../../assets/Brand'
 
 const Contact = () => {
     const formRef = useRef();
@@ -57,6 +58,8 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <p className='copyright'>This page is created by - <Brand height={ 60}  /></p>
+            
         </div>
     )
 }
