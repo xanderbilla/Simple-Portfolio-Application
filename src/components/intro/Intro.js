@@ -3,24 +3,24 @@ import './intro.css'
 
 export const Intro = () => {
   return (
-      <div className="intro">
-          <div className="intro-left">
-              <div className="intro-left-wrapper">
-                <h2 className='intro-intro'>Hello, My Name is</h2>
-                  <h1 className='intro-name'>Xander Billa</h1>
-                  <div className="intro-title">
-                    <div className="intro-title-wrapper">
-                        <div className="intro-title-item">Web Developer</div>
-                        <div className="intro-title-item">UI/UX Designer</div>
-                        <div className="intro-title-item">Student</div>
-                        <div className="intro-title-item">Networker</div>
-                    </div>
-                  </div>
-                  <p className="intro-desc">
-                      I am a student at Acharya Institute. I learn and design things. I have not worked on a lot of projects but that doesn't mean I haven't did on any.
-                  </p>
-              </div>
-              <svg
+    <div className="intro">
+      <div className="intro-left">
+        <div className="intro-left-wrapper">
+          <h2 className='intro-intro'>Hello, My Name is</h2>
+          <h1 className='intro-name'>Lorem Epsum</h1>
+          <div className="intro-title">
+            <div className="intro-title-wrapper">
+              <div className="intro-title-item">Web Developer</div>
+              <div className="intro-title-item">UI/UX Designer</div>
+              <div className="intro-title-item">Student</div>
+              <div className="intro-title-item">Networker</div>
+            </div>
+          </div>
+          <p className="intro-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et ipsum quo repellendus perferendis tenetur dolore, ipsam cupiditate expedita unde eaque totam assumenda nostrum excepturi reiciendis quod dolorum corporis. Quam.
+          </p>
+        </div>
+        <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -76,11 +76,11 @@ export const Intro = () => {
             </g>
           </g>
         </svg>
-        </div>
-          <div className="intro-right">
-          <div className="intro-bg">
-</div>
+      </div>
+      <div className="intro-right">
+        <div className="intro-bg">
         </div>
       </div>
+    </div>
   )
 }
