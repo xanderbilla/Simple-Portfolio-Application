@@ -1,0 +1,36 @@
+.projectList{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projectList-texts{
+    width: 65%;
+}
+
+.projectList-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.projectList-desc{
+    margin: 20px 0px;
+}
+
+.project-browser{
+    height: 20px;
+    background-color: rgb(243,242,242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.projectList-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
